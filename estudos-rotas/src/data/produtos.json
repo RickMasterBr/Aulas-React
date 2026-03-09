@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "nome": "Sistema ERP Web",
+      "imagem": "https://picsum.photos/400/200?random=1",
+      "descricao": "Gestão completa para sua empresa na nuvem."
+    },
+    {
+      "id": 2,
+      "nome": "Aplicativo iOS/Android",
+      "imagem": "https://picsum.photos/400/200?random=2",
+      "descricao": "Desenvolvimento de apps nativos e híbridos."
+    },
+    {
+      "id": 3,
+      "nome": "Consultoria Cloud",
+      "imagem": "https://picsum.photos/400/200?random=3",
+      "descricao": "Migração e otimização de infraestrutura AWS/Azure."
+    },
+    {
+      "id": 4,
+      "nome": "E-commerce Completo",
+      "imagem": "https://picsum.photos/400/200?random=4",
+      "descricao": "Plataforma de vendas online escalável."
+    },
+    {
+      "id": 5,
+      "nome": "Auditoria de Segurança",
+      "imagem": "https://picsum.photos/400/200?random=5",
+      "descricao": "Análise de vulnerabilidades e pentest."
+    },
+    {
+      "id": 6,
+      "nome": "Integração de APIs",
+      "imagem": "https://picsum.photos/400/200?random=6",
+      "descricao": "Conectamos seus sistemas e automatizamos fluxos."
+    },
+    {
+      "id": 7,
+      "nome": "BI e Data Analytics",
+      "imagem": "https://picsum.photos/400/200?random=7",
+      "descricao": "Transforme dados em decisões inteligentes."
+    },
+    {
+      "id": 8,
+      "nome": "Hospedagem Dedicada",
+      "imagem": "https://picsum.photos/400/200?random=8",
+      "descricao": "Servidores de alta performance e uptime de 99.9%."
+    },
+    {
+      "id": 9,
+      "nome": "Suporte Técnico 24/7",
+      "imagem": "https://picsum.photos/400/200?random=9",
+      "descricao": "Equipe especializada sempre à disposição."
+    },
+    {
+      "id": 10,
+      "nome": "Automação com IA",
+      "imagem": "https://picsum.photos/400/200?random=10",
+      "descricao": "Chatbots e agentes virtuais inteligentes."
+    },
+    {
+      "id": 11,
+      "nome": "Design UI/UX",
+      "imagem": "https://picsum.photos/400/200?random=11",
+      "descricao": "Interfaces modernas e focadas na experiência."
+    },
+    {
+      "id": 12,
+      "nome": "Treinamento Corporativo",
+      "imagem": "https://picsum.photos/400/200?random=12",
+      "descricao": "Capacitação técnica para a sua equipe."
+    }
+  ]

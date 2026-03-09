@@ -1,14 +1,49 @@
+import { useState } from "react";
+
 function Contato() {
-    return (
-      <main>
-        <h1>Entre em Contato</h1>
-        <ul>
-          <li><strong>Email:</strong> contato@techsolutions.com.br</li>
-          <li><strong>Telefone:</strong> (21) 99999-9999</li>
-          <li><strong>Endereço:</strong> Rua da Tecnologia, 123 - São Paulo, SP</li>
-        </ul>
-      </main>
-    );
+  const [nome, setNome] = useState("");
+  const [email, setEmail] = useState("");
+  const [mensagem, setMensagem] = useState("");
+
+  function enviarFormulario(e) {
+    e.preventDefault();
+    alert(`Obrigado pelo contato, ${nome}! Sua mensagem foi enviada com sucesso.`);
+    setNome("");
+    setEmail("");
+    setMensagem("");
   }
-  
-  export default Contato;
+
+  return (
+    <main className="container">
+      <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>Fale Conosco</h1>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <form onSubmit={enviarFormulario} className="form">
+          <input
+            type="text"
+            placeholder="Seu Nome"
+            value={nome}
+            onChange={(e) => setNome(e.target.value)}
+            required
+          />
+          <input
+            type="email"
+            placeholder="Seu E-mail"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <textarea
+            placeholder="Como podemos te ajudar?"
+            rows="5"
+            value={mensagem}
+            onChange={(e) => setMensagem(e.target.value)}
+            required
+          />
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+    </main>
+  );
+}
+
+export default Contato;
